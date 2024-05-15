@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: url(https://png.pngtree.com/thumb_back/fh260/background/20210408/pngtree-colorful-funny-cute-alphabet-education-image_603554.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: hidden;
+    }
+    div.main{
+        width: 400px;
+        margin: 100px auto 0;
+    }
+    h2{
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    div.register{
+        background-color: rgba(43, 42, 42, 0.315);
+        width: 100%;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 1px solid rgba(2, 2, 2, 0.3);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+        color: #000;
+    }
+    form#register{
+        margin: 40px;
+    }
+    label{
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    input#name{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 3px;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    input#email{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 3px;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    input#package{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 3px;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    input#phonenumber{
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 3px;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    input#date{
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        outline: 0;
+        padding: 3px;
+        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+        font-size: 19px;
+    }
+    input#submit{
+        width: 200px;
+        padding: 7px;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border-radius: 3px;
+        background-color: rgba(255, 100, 0, 0.8);
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255,0.3);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    .page1btn{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background: crimson;
+        bottom: 40px;
+        right: 50px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        border-radius: 7px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Make Reservation</h2>
+            <form id="register" method="post">
+                <label>Email:</label>
+                <br>
+                <input type="text" name="email" id="email" placeholder="ENTER YOUR EMAIL">
+                <br><br>
+                <label>Name:</label>
+                <br><br>
+                <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME">
+                <br><br>
+                <label>Package:</label>
+                <br><br>
+                <input type="text" name="package" id="package" placeholder="ENTER YOUR PACKAGE">
+                <br><br>
+                <label>Phone Number:</label>
+                <br><br>
+                <input type="text" name="phonenumber" id="phonenumber" placeholder="ENTER YOUR PHONE NUMBER">
+                <br><br>
+                <label for="date">Date: <br></label>
+                <br>
+                <input type="date" id="date">
+                <br><br>
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </form>
+            <a class="page1btn" href="party.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+    </div>
+</body>
+</html>
